@@ -31,6 +31,7 @@ class Utils {
         return new Date().getTime();
     }
     LoinsInsertAfter(newElement, targetElement) {
+        debugger
         var parent = targetElement.parentNode;
         if (parent.lastChild == targetElement) {
             parent.appendChild(newElement);
